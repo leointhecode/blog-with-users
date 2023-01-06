@@ -13,6 +13,8 @@ from flask_gravatar import Gravatar
 from functools import wraps
 import smtpd
 
+#USE OF ENV VAR
+
 load_dotenv()
 
 app = Flask(__name__)
